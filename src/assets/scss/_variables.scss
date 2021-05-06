@@ -51,7 +51,7 @@ $alert-colors: (
         background-color: #56b6f7,
     ),
 );
-$card-box-shadow:                   0 0 15px #f2f5ff;
+$card-box-shadow:                   0 0 15px #6d7fbd14;
 $card-title-font-size:              1.15rem;
 $modal-header-font-size:            1.1rem;
 
@@ -112,7 +112,7 @@ $colors: (
 // scss-docs-end colors-map
 
 $primary:       #4C6FFF !default;
-$secondary:     $gray-600 !default;
+$secondary:     #FF92AE !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
