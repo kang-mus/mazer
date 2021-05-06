@@ -1,5 +1,5 @@
 #main {
-    margin-left: 300px;
+    margin-left: $sidebar-width;
     padding: 2rem;
     @media screen and (max-width: 1199px) {
         margin-left: 0;
@@ -8,13 +8,20 @@
         padding: 0;
     }
     #main-content {
-        padding: 2rem;
+        padding: 0 2rem 2rem;
     }
 }
 .page-heading {
     margin:  0 0 2rem;
-    h3 {
+    h3, h4 {
         font-weight: bold;
+        font-size: 1.32rem;
+    }
+    .text-subtitle {
+        font-size: 0.9rem;
+    }
+    .page-title {
+        margin-bottom: 1.5rem;
     }
 }
 .page-title-headings {

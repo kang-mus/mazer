@@ -18,7 +18,7 @@ mix.sass('src/assets/scss/app.scss', 'assets/css')
 // mix.js('node_modules/apexcharts/dist/apexcharts.min.js', 'assets/vendors/apexcharts');
 
 mix.browserSync({
-    proxy: 'mazer.test',
+    proxy: 'http://localhost:8000',
 });
 
 mix.njk('src/', 'dist/', {
