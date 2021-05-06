@@ -51,7 +51,7 @@ $alert-colors: (
         background-color: #56b6f7,
     ),
 );
-$card-box-shadow:                   1px 1px 4px 4px #f2f5ff;
+$card-box-shadow:                   0 0 15px #f2f5ff;
 $card-title-font-size:              1.15rem;
 $modal-header-font-size:            1.1rem;
 
@@ -111,7 +111,7 @@ $colors: (
 ) !default;
 // scss-docs-end colors-map
 
-$primary:       #2189dc !default;
+$primary:       #4C6FFF !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -314,7 +314,7 @@ $position-values: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   #f9faff !default;
+$body-bg:                   #F7FAFC !default;
 $body-color:                #607080 !default;
 $body-text-align:           null !default;
 
